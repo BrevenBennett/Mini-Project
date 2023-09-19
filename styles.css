@@ -1,8 +1,68 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap");
 
 * {
   box-sizing: border-box;
   padding: 0;
   margin: 0;
   font-family: "Roboto", sans-serif;
+}
+
+ul {
+  list-style-type: none;
+}
+
+nav {
+  padding: 0 12px;
+  height: 50px;
+  background-color: rgb(116, 200, 208);
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo {
+  width: 200px;
+}
+
+.nav__link--list {
+  display: flex;
+  align-items: center;
+}
+
+.nav__link {
+  margin-left: 8px;
+  color: black;
+  font-weight: 700;
+}
+
+header {
+  padding: 0 12px;
+  height: calc(100vh - 50px);
+  background-color: rgb(231, 148, 231);
+  display: flex;
+  align-items: center;
+}
+
+.header__container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.header__title,
+.header__para {
+  margin-bottom: 12px;
+}
+
+.header__btn {
+  width: 100%;
+  max-width: 100px;
+  background-color: aqua;
+  border: none;
+  border-radius: 2px;
+}
+
+.header__img {
+  width: 100%;
+  max-width: 300px;
+  height: 300px;
 }

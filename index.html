@@ -10,67 +10,77 @@
     <section id="landing">
       <nav>
         <img class="logo" src="./assets/FES.svg" alt="" />
-        <ul class="nav__link--list">
-          <li><a class="nav__link" href="#about">About</a></li>
-          <li><a class="nav__link" href="#discord">Discord</a></li>
-          <li><a class="nav__link" href="#contact">Contact</a></li>
+        <ul>
+          <li><a href="#about">About</a></li>
+          <li><a href="#discord">Discord</a></li>
+          <li><a href="#contact">Contact</a></li>
         </ul>
       </nav>
       <header>
-        <div class="header__container">
-          <h1 class="header__title">Best place to learn Frontend</h1>
-          <p class="header__para">
-            Go from absolute beginner to pro with a simplified process
-          </p>
-          <button class="header__btn">Start Now</button>
+        <div class="row">
+          <div>
+            <h1>Best place to learn Frontend</h1>
+            <p class="header__para">
+              Go from absolute beginner to pro with a simplified process
+            </p>
+            <button>Start Now</button>
+          </div>
+          <figure>
+            <img src="./assets/laptop.png" alt="" />
+          </figure>
         </div>
-        <figure class="header__img--container">
-          <img class="header__img" src="./assets/laptop.png" alt="" />
-        </figure>
       </header>
     </section>
     <main>
       <section id="about">
         <h2>About</h2>
-        <div>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea sed
-            autem architecto hic? Assumenda inventore nobis, expedita numquam
-            dolorum aperiam.
-          </p>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea sed
-            autem architecto hic? Assumenda inventore nobis, expedita numquam
-            dolorum aperiam.
-          </p>
+        <div class="rwo">
+          <div class="section__description">
+            <div class="section__description--wrapper">
+              <p class="section__description--para">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea sed
+                autem architecto hic? Assumenda inventore nobis, expedita
+                numquam dolorum aperiam.
+              </p>
+              <p class="section__description--para">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea sed
+                autem architecto hic? Assumenda inventore nobis, expedita
+                numquam dolorum aperiam.
+              </p>
+            </div>
+            <figure class="about__img--wrapper">
+              <img src="./assets/about.jpg" alt="" />
+            </figure>
+          </div>
         </div>
-        <figure>
-          <img src="./assets/about.jpg" alt="" />
-        </figure>
       </section>
       <section id="discord">
         <h2>Discord</h2>
-        <figure>
-          <img src="./assets/discord.png" alt="" />
-        </figure>
-        <div>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate
-            suscipit dolores explicabo! Reiciendis dolore esse quos
-            perspiciatis. Numquam, fugiat eaque?
-          </p>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate
-            suscipit dolores explicabo! Reiciendis dolore esse quos
-            perspiciatis. Numquam, fugiat eaque?
-          </p>
+        <div class="row">
+          <div class="section__description">
+            <figure>
+              <img src="./assets/discord.png" alt="" />
+            </figure>
+            <div class="section__description--wrapper">
+              <p class="section__description--para">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Voluptate suscipit dolores explicabo! Reiciendis dolore esse
+                quos perspiciatis. Numquam, fugiat eaque?
+              </p>
+              <p class="section__description--para">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Voluptate suscipit dolores explicabo! Reiciendis dolore esse
+                quos perspiciatis. Numquam, fugiat eaque?
+              </p>
+            </div>
+          </div>
         </div>
       </section>
       <section id="contact">
         <h2>Contact</h2>
         <form action="">
           <label for="">Email</label>
-          <input type="text" placeholder="jane@example.com" />
+          <input type="email" placeholder="jane@example.com" />
           <label for="">Message</label>
           <textarea
             type="text"
@@ -81,7 +91,7 @@
       </section>
     </main>
     <footer>
-        <img src="./assets/FES.svg" alt="">
+      <img class="footer__logo" src="./assets/FES.svg" alt="" />
       <div class="footer__links">
         <a class="footer__link" href="#about">About</a>
         <a class="footer__link" href="#discord">Discord</a>
